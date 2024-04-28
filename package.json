@@ -1,0 +1,31 @@
+{
+  "name": "03-solid-api",
+  "version": "1.0.0",
+  "description": "Gympass style app.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucasezidro/03-gympass-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucasezidro/03-gympass-app/issues"
+  },
+  "homepage": "https://github.com/Lucasezidro/03-gympass-app#readme",
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "tsup": "8.0.2",
+    "tsx": "4.7.3",
+    "typescript": "5.4.5"
+  },
+  "dependencies": {
+    "fastify": "4.26.2"
+  }
+}
